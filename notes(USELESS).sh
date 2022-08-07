@@ -1,4 +1,10 @@
 #!/bin/bash
+
+
+# Note: this is a useless program, I just use this as a running track of things I learn while learning things about bash scripting
+# This was used for experimental purposes
+
+
 # this is a comment
 # second comment
 
