@@ -6,6 +6,7 @@ This is a repository I will be uploading my BASH programs to as I learn to progr
 ## Files that will only work for me:
 * navi -> It opens folder paths that only exist on my pc
 * notes.sh -> I use this to test out new commands I learn
+* osu -> Launches osu lazer app image but uses paths only on my pc
 
 ## Running the programs: 
 
