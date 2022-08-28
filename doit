@@ -6,4 +6,6 @@ echo Enter program name:
 
 read filename
 
+chmod +x $filename
+
 sudo cp $filename /usr/local/bin/
