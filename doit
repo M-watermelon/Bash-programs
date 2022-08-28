@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo This is a program that will make your shellcode run anywhere, no matter the directory
+
+echo Enter program name:
+
+read filename
+
+sudo cp $filename /usr/local/bin/

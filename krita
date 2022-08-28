@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+./Downloads/krita-5.1.0-x86_64.appimage
+
+#run krita b/c its an appimage
