@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo New shell code file will be created. Enter a name for the file \(do not include .sh\)
+
+read filename
+
+> $filename
+echo You are now editing the file called $filename
+echo \*Pressing ENTER will end the process\*
+echo Start typing here:
+
+read code
+
+echo \#!/bin/bash >> $filename
+echo $code >> $filename

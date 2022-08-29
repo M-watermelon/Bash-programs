@@ -1,0 +1,18 @@
+#!/bin/bash
+code = ""
+
+echo New shell code file will be created. Enter a name for the file \(do not include .sh\)
+
+read filename
+
+> $filename
+cat \#!/bin/bash >> $filename
+
+
+echo You are now editing an empty file named $filename. Type STOP and press enter to quit editing.
+echo Start typing here:
+while [$code -ne "STOP"]
+do
+    read code
+    echo $code >> $filename 
+done
