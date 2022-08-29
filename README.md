@@ -8,6 +8,7 @@ This is a repository I will be uploading my BASH programs to as I learn to progr
 * notes.sh -> I use this to test out new commands I learn
 * osu -> Launches osu lazer app image but uses paths only on my pc
 * krita -> Runs Krita app image (directory paths could be different for other people)
+* shellcode -> takes me to the directory on my PC that has all my BASH scripts
 
 ## Files that will probably work for anyone (no guarantees)
 * doit -> automatically makes a shell program executable and copies it to the `/usr/local/bin` directory to make it runable in any directory
